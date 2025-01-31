@@ -1,20 +1,20 @@
-Quiz Application 🎯
-A web-based quiz app focusing on Genetics and Evolution, delivering an interactive learning experience with real-time scoring and feedback.
+# Quiz Application 🎯  
 
-🚀 Live Demo
-[🔗 Add your deployed application link here]
+A web-based quiz app focusing on **Genetics and Evolution**, delivering an interactive learning experience with real-time scoring and feedback.
 
-🔥 Features
-Dynamic quiz content from API
-Interactive multiple-choice questions
-Real-time score tracking & feedback
-Responsive UI & smooth user experience
-Progress tracking & topic-based questions
-🛠️ Technical Implementation
-🔗 API Integration
-The app fetches quiz data using a CORS proxy:
+## 🔥 Features  
+✅ Dynamic quiz content from API  
+✅ Interactive multiple-choice questions  
+✅ Real-time score tracking & feedback  
+✅ Responsive UI & smooth user experience  
+✅ Progress tracking & topic-based questions  
 
-javascript
+## 🛠️ Technical Implementation  
+
+### 🔗 API Integration  
+The app fetches quiz data using a **CORS proxy**:  
+
+```javascript
 const fetchQuizData = async () => {
   try {
     const response = await fetch('https://api.allorigins.win/raw?url=' + 
@@ -26,96 +26,37 @@ const fetchQuizData = async () => {
     throw error;
   }
 };
+```
 
-📌 Key Components
-QuizStart: Displays quiz introduction
-Question: Handles each question & user responses
-Results: Shows final score & restart option
-🏗️ Technologies Used
-React.js for frontend
-Styled Components for UI design
-JavaScript (ES6+) for logic
-CORS Proxy for API integration
-Responsive Design for cross-device support
-⚙️ Setup Instructions
-📌 Prerequisites
-Node.js (v14 or higher)
-npm (v6 or higher)
-📥 Installation
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+1. Clone the repository
 bash
-Copy
-Edit
 git clone [your-repository-link]
-cd quiz-app
-npm install
-npm start
-Then open http://localhost:3000 in your browser.
-
-📁 Project Structure
+2. Navigate to project directory
 bash
-Copy
-Edit
-src/
-  ├── components/
-  │   ├── QuizStart.js
-  │   ├── Question.js
-  │   └── Results.js
-  ├── services/
-  │   └── api.js
-  ├── styles/
-  │   └── styles.js
-  ├── App.js
-  └── index.js
-🖼️ Screenshots
-🏁 Start Screen
+cd quiz-app
+3. Install dependencies
+bash
+npm install
+4. Start development server
+bash
+npm start
+5. Open http://localhost:3000 in your browser
 
+## Screenshots
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/42b3bbe3-3bfd-4995-814e-b7e77de46293" />
 
-📌 Question Interface
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/a567fb56-c8d5-44bb-b52d-37e969826d92" />
 
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/cd996bf4-609a-405c-a2a3-65afac67e3f7" />
 
-🎯 Results Screen
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/7c3be131-7304-447e-99ba-4cbb1562669f" />
 
-
-🎥 Video Walkthrough
-[🎬 Add video demonstration link]
-
-🚧 Challenges & Solutions
-❌ CORS Handling
-Since the API had CORS restrictions, a CORS proxy (api.allorigins.win) was used to ensure seamless data fetching.
-
-❌ Error Handling
-Implemented robust error handling for:
-
-API failures
-Invalid responses
-Data loading states
-🚀 Future Improvements
-🌟 Add timer functionality
-🌟 Implement difficulty levels
-🌟 Enhance UI animations
-🌟 Save quiz progress
-🌟 Improve analytics & reporting
-👥 Contributing
-Fork the repo
-Create a new branch (git checkout -b feature/AmazingFeature)
-Commit changes (git commit -m 'Add AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📜 License
-[📝 Add your license information]
-
-📬 Contact
-✉️ Your Name - [your email]
-🔗 Project Link - [your repository link]
-
-💡 Acknowledgments
-📚 React.js Documentation
-🎨 Styled Components
-🔗 API.allorigins.win (CORS Proxy)
-✅ Next Steps
-Add your actual screenshots
-Include your video walkthrough link
-Update repository & contact details
-Include any specific license information
-Update with any additional features implemented
-This clean, structured, and engaging README is optimized for GitHub and makes your project easy to understand and contribute to. 🚀 Let me know if you'd like any refinements!
+## Video Walkthrough
+https://github.com/user-attachments/assets/1f6646de-66eb-43fb-a670-b7387eb6a3e1
